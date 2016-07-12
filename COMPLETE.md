@@ -11,3 +11,9 @@ List of Complete Bioinformatics work
   * MSC - OB
   * MSC - Tenocyte
   * Subset for Final CpG list for original collaboration
+
+---
+
+## Stuart Watson
+### Methylation Arrays
+* Report results of non-linear effects

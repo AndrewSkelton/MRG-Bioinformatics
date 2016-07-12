@@ -45,7 +45,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Stuart Watson
 ### Methylation Arrays
-* Report results of non-linear effects
+* Inspect Gender specific effects
 * Waiting on Stuart to confirm sample-to-sample matchings
 
 ---
