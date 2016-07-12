@@ -1,10 +1,14 @@
 # MRG-Bioinformatics
 Current list of work being carried out in the MRG in Bioinformatics
 
+---
 
 # Short Term Work
+
 ## Jess Tarn / Dennis Lendrem
 * GLM Code support - Useful collaboration for Arthur's eQTL Projects
+
+---
 
 # Long Term Projects
 ## Faye Cooles - NanoString
@@ -16,6 +20,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Export Results
 * Rubber Duck
 * Send results
+
+---
 
 ## Fai Ng
 ### Resolve Therapeutics - qPCR Arrays
@@ -35,10 +41,14 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Weekly meeting to assess progress and guide
 * Low Frequency support
 
+---
+
 ## Stuart Watson
 ### Methylation Arrays
 * Report results of non-linear effects
 * Waiting on Stuart to confirm sample-to-sample matchings
+
+---
 
 ## John Loughlin
 ### arcOGEN Data
@@ -48,6 +58,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### Jaume Machine Learning
 * Test Machine Learning Results against Linear Model tests for differential methylation
 * Expectation is that some combinations from Jaume may not be found using typical differential methylation techniques
+
+---
 
 ## Louise Reynard
 ### Methylation Collaboration Project
@@ -71,11 +83,15 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Genotype Raw IDAT files (need GenomeStudio, CRLMM is not viable)
 * Impute Genotyped IDAT files (1000G Phase 3)
 
+---
+
 ## Sophie Hambleton
 ### PID Exome Project
 * Re-label mixed samples
 * Re-run Joint Genotyping
 * Create test that checks relatedness against known pedigrees
+
+---
 
 ## Colin Shepherd
 ### Data request
@@ -83,6 +99,8 @@ Current list of work being carried out in the MRG in Bioinformatics
   * Find transcript ID to gene ID mappings
   * Get TPMs
   * Send results
+
+---
 
 ## Arthur Pratt
 ### T-Cell Dataset
@@ -94,9 +112,13 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### B-Cell
 * No current Tasks
 
+---
+
 ## Desa Lilic
 ### CiC Project
 * Awaiting Data - Expected mid to end of July
+
+---
 
 ## David Young
 ### NOF OA RNA Seq Dataset
@@ -112,3 +134,5 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ### Cardiff collaboration
 * Low frequency support requests
+
+---
