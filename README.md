@@ -109,8 +109,9 @@ Current list of work being carried out in the MRG in Bioinformatics
 * eQTL of ~1000 Genes (ranked by variability), benchmark time in 30 cores parallel
 * Interaction effect research
 
-### B-Cell
+### B-Cell Dataset
 * No current Tasks
+* Support / teaching of Nish's PhD
 
 ---
 
