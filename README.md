@@ -63,12 +63,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Louise Reynard
 ### Methylation Collaboration Project
-* Scripps Transcription Factor Enrichment Analysis
-* Mandy Transcription Factor Enrichment Analysis
-  * MSC - chondrocyte
-  * MSC - OB
-  * MSC - Tenocyte
-  * Subset for Final CpG list for original collaboration
 * Compile Code for Project
 * Migrate to long term github Project
 * Document
