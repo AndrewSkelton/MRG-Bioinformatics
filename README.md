@@ -78,8 +78,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Sophie Hambleton
 ### PID Exome Project
-* Re-label mixed samples
-* Re-run Joint Genotyping
+* Implement check for Missing bam files for a given sample map element
+* Re-run Joint Genotyping - Waiting on preprocessing.
 * Create test that checks relatedness against known pedigrees
 
 ---

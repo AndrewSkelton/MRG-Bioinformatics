@@ -27,3 +27,10 @@ List of Complete Bioinformatics work
 * Develop Contrasts
 * Visualisations
 * Export Results
+
+---
+
+## Sophie Hambleton
+### PID Exome Project - ~0.25 Days
+* Re-label mixed samples
+* Change ReadGroups - Easier to run preprocessing.
