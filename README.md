@@ -13,11 +13,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 # Long Term Projects
 ## Faye Cooles - NanoString
 * Evaluate Raw Data Distribution
-* Design model for experimental design
+* Design model for experimental design - Question 5 still to go
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
-* Develop Contrasts
-* Visualisations
-* Export Results
 * Rubber Duck
 * Send results
 
