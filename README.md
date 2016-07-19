@@ -84,15 +84,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ---
 
-## Colin Shepherd
-### Data request
-* NOF OA RNA Seq data for genes of interest
-  * Find transcript ID to gene ID mappings
-  * Get TPMs
-  * Send results
-
----
-
 ## Arthur Pratt
 ### T-Cell Dataset
 * Query - See email, differential expression test between groupings
@@ -116,9 +107,9 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### NOF OA RNA Seq Dataset
 * Genotyping Analysis Results
 
-### 1000 Families miRNA Seq
-* No current Tasks
-* Expecting Data
+### 1000 Families miRNA Seq - Tania/Fraser
+* Get Raw Data
+* Publication Quality Tables and Figures
 
 ### DNA Sequencing
 * No current Tasks

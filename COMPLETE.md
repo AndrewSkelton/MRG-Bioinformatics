@@ -34,3 +34,12 @@ List of Complete Bioinformatics work
 ### PID Exome Project - ~0.25 Days
 * Re-label mixed samples
 * Change ReadGroups - Easier to run preprocessing.
+
+---
+
+## Colin Shepherd
+### Data request - ~0.5
+* NOF OA RNA Seq data for genes of interest
+  * Find transcript ID to gene ID mappings
+  * Get TPMs
+  * Send results
