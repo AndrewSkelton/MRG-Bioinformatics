@@ -42,4 +42,6 @@ List of Complete Bioinformatics work
 * NOF OA RNA Seq data for genes of interest
   * Find transcript ID to gene ID mappings
   * Get TPMs
+  * Get Gene Level normalised counts
+  * Create output (openxlsx)
   * Send results

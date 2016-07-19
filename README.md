@@ -3,10 +3,9 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ---
 
-# Short Term Work
-
 ## Jess Tarn / Dennis Lendrem
 * GLM Code support - Useful collaboration for Arthur's eQTL Projects
+* Normalised, not batch corrected dataset 
 
 ---
 
