@@ -5,7 +5,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Jess Tarn / Dennis Lendrem
 * GLM Code support - Useful collaboration for Arthur's eQTL Projects
-* Normalised, not batch corrected dataset 
+* Normalised, not batch corrected dataset
 
 ---
 
@@ -14,6 +14,12 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Evaluate Raw Data Distribution
 * Design model for experimental design - Question 5 still to go
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
+  * Check NanoStringNorm, and normalise using housekeepers (geometric mean)
+  * Limma Voom (Don't pre normalise - Size factors, or TMM at most)
+* Volcano Plots
+* Pairings
+* Correlation of Retrotransposon genes against everything else (cor.test)
+  * Subset by Cell Type
 * Rubber Duck
 * Send results
 
@@ -48,8 +54,9 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## John Loughlin
 ### arcOGEN Data
-* Phenotype data requested, waiting on response
-* Imputed (1000G Phase 1, GRCh37 Assembly) Data requested, waiting on response
+* Finish Transfer using Globus Online
+* Archive to Sulaco / MRG Archive
+* Followup Britt - Phenotype FTP error
 
 ### Jaume Machine Learning
 * Test Machine Learning Results against Linear Model tests for differential methylation
