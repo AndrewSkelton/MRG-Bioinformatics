@@ -5,7 +5,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Jess Tarn / Dennis Lendrem
 * GLM Code support - Useful collaboration for Arthur's eQTL Projects
-* Normalised, not batch corrected dataset
 
 ---
 
@@ -20,6 +19,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Pairings
 * Correlation of Retrotransposon genes against everything else (cor.test)
   * Subset by Cell Type
+* IPA
 * Rubber Duck
 * Send results
 
@@ -39,10 +39,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Rubber Duck
 * Report results
 
-### MSc Supervision
-* Weekly meeting to assess progress and guide
-* Low Frequency support
-
 ---
 
 ## Stuart Watson
@@ -53,11 +49,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 ---
 
 ## John Loughlin
-### arcOGEN Data
-* Finish Transfer using Globus Online
-* Archive to Sulaco / MRG Archive
-* Followup Britt - Phenotype FTP error
-
 ### Jaume Machine Learning
 * Test Machine Learning Results against Linear Model tests for differential methylation
 * Expectation is that some combinations from Jaume may not be found using typical differential methylation techniques
@@ -80,11 +71,16 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Genotype Raw IDAT files (need GenomeStudio, CRLMM is not viable)
 * Impute Genotyped IDAT files (1000G Phase 3)
 
+### GEO Data request
+* GSE80071
+  * Awaiting Contrasts of interest
+* Query and Get IDAT files for GSE46364
+  * Awaiting Reply
+
 ---
 
 ## Sophie Hambleton
 ### PID Exome Project
-* Implement check for Missing bam files for a given sample map element
 * Re-run Joint Genotyping - Waiting on preprocessing.
 * Create test that checks relatedness against known pedigrees
 
@@ -123,5 +119,11 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ### Cardiff collaboration
 * Low frequency support requests
+
+---
+
+## Amanda Villalvilla
+### arcOGEN Data Queries
+* SNP List Extract using Plink / R
 
 ---
