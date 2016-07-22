@@ -67,6 +67,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ### mQTL Analysis
 * mQTL Pipeline Design (use parts from Arthur's project)
+  * Bespoke
+  * MatrixEQTL (CRAN)
 * Combine Preprocessed Genotype Data - From Rebecca
 * Genotype Raw IDAT files (need GenomeStudio, CRLMM is not viable)
 * Impute Genotyped IDAT files (1000G Phase 3)

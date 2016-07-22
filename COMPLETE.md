@@ -39,11 +39,15 @@ List of Complete Bioinformatics work
 ---
 
 ## Sophie Hambleton
-### PID Exome Project - Time Commitment ~0.5 Days
-* Re-label mixed samples
+### PID Exome Project - Time Commitment ~1 Days
+* Re-label mixed samplesqst
 * Change ReadGroups - Easier to run preprocessing.
 * Implement check for Missing bam files for a given sample map element
 * Fix bug in pedigree reporting
+  * Split for Families and singletons
+  * Issue with sex allocation resolved
+  * Gender issue with spaces in Sample Map (Excel fix in future, but implemented in bash)
+* 22nd July - Gender Issue on remapped samples - Running again to be sure.
 
 ---
 
