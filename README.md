@@ -20,6 +20,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Correlation of Retrotransposon genes against everything else (cor.test)
   * Subset by Cell Type
 * IPA
+  * PO
 * Rubber Duck
 * Send results
 
@@ -76,8 +77,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### GEO Data request
 * GSE80071
   * Awaiting Contrasts of interest
-* Query and Get IDAT files for GSE46364
-  * Awaiting Reply
 
 ---
 
@@ -95,6 +94,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 * GLM / LM differences based on - x ~ y * z / LRT
 * eQTL of ~1000 Genes (ranked by variability), benchmark time in 30 cores parallel
 * Interaction effect research
+  * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
 
 ### B-Cell Dataset
 * No current Tasks
@@ -134,5 +134,11 @@ Current list of work being carried out in the MRG in Bioinformatics
 ## Adrian Falconer
 ### HT12 Experiment
 * Experimental Design Meeting 2pm 25th July 2016
+  * 4 Factorials (Stimulations), Time points
+  * IPA
+    * PO
+  * Volcano Plots
+  * Take Raw Data / Phenotype data and make archive
+  * Preprocess using LumiDat binary
 
 ---

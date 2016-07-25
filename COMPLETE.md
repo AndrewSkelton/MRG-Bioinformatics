@@ -13,10 +13,12 @@ List of Complete Bioinformatics work
   * Subset for Final CpG list for original collaboration
 * Followup Enrichment analysis (TXF/ ENCODE Chromatin) for DM lists
 
-### GEO Data request - Time Commitment ~0.1 Days
+### GEO Data request - Time Commitment ~0.15 Days
 * Query and Get IDAT files for GSE80071
   * Archive Data
   * Get GEO Phenotype entry to match IDATs
+* Query and Get IDAT files for GSE46364
+  * Requires collaboration to share IDAT files
 
 ---
 
