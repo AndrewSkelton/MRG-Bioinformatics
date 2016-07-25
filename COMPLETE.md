@@ -39,15 +39,16 @@ List of Complete Bioinformatics work
 ---
 
 ## Sophie Hambleton
-### PID Exome Project - Time Commitment ~1 Days
+### PID Exome Project - Time Commitment ~1.15 Days
 * Re-label mixed samplesqst
 * Change ReadGroups - Easier to run preprocessing.
 * Implement check for Missing bam files for a given sample map element
 * Fix bug in pedigree reporting
   * Split for Families and singletons
   * Issue with sex allocation resolved
-  * Gender issue with spaces in Sample Map (Excel fix in future, but implemented in bash)
-* 22nd July - Gender Issue on remapped samples - Running again to be sure.
+  * Gender issue with spaces in Sample Map (implemented in bash)
+* 22nd July - Gender Issue on remapped samples - Still Issues, waiting on relatedness check.
+  * Samples D180850,GNB051015,GNB120815,NG002,NG003,NG008,NG009 Appear to be wrong post re-label
 
 ---
 
@@ -72,6 +73,16 @@ List of Complete Bioinformatics work
   * Phenotype Data - Split into two stages
   * Imputed Plink files (fam bed bim), 1000G P1 hg19
 * Followup Britt - Phenotype FTP error
+
+---
+
+## Amanda Villalvilla
+### arcOGEN Data Queries - Time Commitment ~0.35 Days
+* SNP List Extract using Plink / R
+  * Create SNP list from email
+  * Subset Plink files, create transposed matrix of genotypes
+    * Use Plink 1.9 on Sulaco
+  * Send to customer
 
 ---
 

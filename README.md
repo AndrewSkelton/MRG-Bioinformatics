@@ -85,6 +85,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### PID Exome Project
 * Re-run Joint Genotyping - Waiting on preprocessing.
 * Create test that checks relatedness against known pedigrees
+* Create Test to detect duplicate sample IDs in pedigree file, that have different family IDs
 
 ---
 
@@ -126,6 +127,12 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Amanda Villalvilla
 ### arcOGEN Data Queries
-* SNP List Extract using Plink / R
+* No tasks
+
+---
+
+## Adrian Falconer
+### HT12 Experiment
+* Experimental Design Meeting 2pm 25th July 2016
 
 ---
