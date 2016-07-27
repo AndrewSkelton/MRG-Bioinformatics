@@ -101,3 +101,20 @@ List of Complete Bioinformatics work
   * Validation set
   * Discovery set
   * Add to shared drive (pss_archive)
+
+---
+
+## Arthur Pratt
+### T-Cell Dataset - Time Commitment ~1.5 Days
+* eQTL of ~1000 Genes (ranked by variability)
+* Interaction effect research
+  * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
+  * Implement Logistic regression approach
+  * Run over 7,000 gene expression probes ranked by variance
+  * Parallelise (40 Threads on Sulaco overnight - ~8Hrs)
+  * Plot top results
+    * 15,760,003 Tests - Could be limited using LD and MAF
+    * 4 Pass FDR (Not convincing)
+    * 67 (-4) P < 0.0001
+    * Limited on Power due to Genotype, Disease Split
+  * Meeting Friday 2pm

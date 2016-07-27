@@ -58,6 +58,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Louise Reynard
 ### Methylation Collaboration Project
+* Scripps Data
+  * Age Regression
 * Compile Code for Project
 * Migrate to long term github Project
 * Document
@@ -92,9 +94,19 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### T-Cell Dataset
 * Query - See email, differential expression test between groupings
 * GLM / LM differences based on - x ~ y * z / LRT
-* eQTL of ~1000 Genes (ranked by variability), benchmark time in 30 cores parallel
+* eQTL of ~1000 Genes (ranked by variability)
 * Interaction effect research
   * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
+  * Implement Logistic regression approach
+  * Run over 7,000 gene expression probes ranked by variance
+  * Parallelise (40 Threads on Sulaco overnight)
+  * Plot top results
+    * 15,760,003 Tests - Could be limited using LD and MAF
+    * 4 Pass FDR (Not convincing)
+    * 67 (-4) P < 0.0001
+    * Limited on Power due to Genotype, Disease Split
+  * Meeting Friday 2pm
+
 
 ### B-Cell Dataset
 * No current Tasks
