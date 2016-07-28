@@ -20,6 +20,10 @@ List of Complete Bioinformatics work
 * Query and Get IDAT files for GSE46364
   * Requires collaboration to share IDAT files
 
+### Data Queries - Time Commitment ~0.25 Days
+* Gene Expression Query from Arthur's Datasets - CD4+/CD8+ for CHST11
+* Genotype Query from Arthur's Datasets - See email for list
+
 ---
 
 ## Stuart Watson
@@ -41,7 +45,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Sophie Hambleton
-### PID Exome Project - Time Commitment ~1.15 Days
+### PID Exome Project - Time Commitment ~1.5 Days
 * Re-label mixed samplesqst
 * Change ReadGroups - Easier to run preprocessing.
 * Implement check for Missing bam files for a given sample map element
@@ -51,6 +55,12 @@ List of Complete Bioinformatics work
   * Gender issue with spaces in Sample Map (implemented in bash)
 * 22nd July - Gender Issue on remapped samples - Still Issues, waiting on relatedness check.
   * Samples D180850,GNB051015,GNB120815,NG002,NG003,NG008,NG009 Appear to be wrong post re-label
+  * Informed Jon - Waiting for confirmation to send MT Bams
+  * Remapping was interpreted the opposite way around
+  * Re-Labeled, Applying preprocessing
+* Create test that checks relatedness against known pedigrees
+
+
 
 ---
 
@@ -84,7 +94,7 @@ List of Complete Bioinformatics work
   * Create SNP list from email
   * Subset Plink files, create transposed matrix of genotypes
     * Use Plink 1.9 on Sulaco
-  * Send to customer
+  * Send Results
 
 ---
 
@@ -105,12 +115,13 @@ List of Complete Bioinformatics work
 ---
 
 ## Arthur Pratt
-### T-Cell Dataset - Time Commitment ~1.5 Days
+### T-Cell Dataset - Time Commitment ~1.75 Days
 * eQTL of ~1000 Genes (ranked by variability)
 * Interaction effect research
   * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
   * Implement Logistic regression approach
   * Run over 7,000 gene expression probes ranked by variance
+    * Ran over 1,000 probes with low variance - 3 Results, Variance rank seems to work.
   * Parallelise (40 Threads on Sulaco overnight - ~8Hrs)
   * Plot top results
     * 15,760,003 Tests - Could be limited using LD and MAF
@@ -118,3 +129,17 @@ List of Complete Bioinformatics work
     * 67 (-4) P < 0.0001
     * Limited on Power due to Genotype, Disease Split
   * Meeting Friday 2pm
+
+---
+
+# Adrian Falconer
+### HT12 Experiment - Time Commitment ~1.25 Days
+* Experimental Design Meeting 2pm 25th July 2016
+* Prep Data from IDAT -> S|CPP
+* QC
+* DE Analysis - Between TPs for each Sample Type
+* DE Results (Padj < 0.05 & LFC > 2)
+* Create Report in Markdown
+  * Compile to PDF
+
+---

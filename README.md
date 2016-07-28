@@ -3,11 +3,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ---
 
-## Jess Tarn / Dennis Lendrem
-* GLM Code support - Useful collaboration for Arthur's eQTL Projects
-
----
-
 # Long Term Projects
 ## Faye Cooles - NanoString
 * Evaluate Raw Data Distribution
@@ -46,6 +41,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### Methylation Arrays
 * Inspect Gender specific effects
 * Waiting on Stuart to confirm sample-to-sample matchings
+* Compare SWAN against FunNorm
+* Reply to Abstract Query
 
 ---
 
@@ -64,10 +61,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Migrate to long term github Project
 * Document
 
-### Data Queries
-* Gene Expression Query from Arthur's Datasets - CD4+/CD8+ for CHST11
-* Genotype Query from Arthur's Datasets - See email for list
-
 ### mQTL Analysis
 * mQTL Pipeline Design (use parts from Arthur's project)
   * Bespoke
@@ -85,27 +78,16 @@ Current list of work being carried out in the MRG in Bioinformatics
 ## Sophie Hambleton
 ### PID Exome Project
 * Re-run Joint Genotyping - Waiting on preprocessing.
-* Create test that checks relatedness against known pedigrees
 * Create Test to detect duplicate sample IDs in pedigree file, that have different family IDs
+* Alter Pedigree file for mismatches
+* Rerun full JointGenotyping Run
 
 ---
 
 ## Arthur Pratt
 ### T-Cell Dataset
 * Query - See email, differential expression test between groupings
-* GLM / LM differences based on - x ~ y * z / LRT
-* eQTL of ~1000 Genes (ranked by variability)
-* Interaction effect research
-  * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
-  * Implement Logistic regression approach
-  * Run over 7,000 gene expression probes ranked by variance
-  * Parallelise (40 Threads on Sulaco overnight)
-  * Plot top results
-    * 15,760,003 Tests - Could be limited using LD and MAF
-    * 4 Pass FDR (Not convincing)
-    * 67 (-4) P < 0.0001
-    * Limited on Power due to Genotype, Disease Split
-  * Meeting Friday 2pm
+* Meeting Friday 2pm
 
 
 ### B-Cell Dataset
