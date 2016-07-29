@@ -60,8 +60,6 @@ List of Complete Bioinformatics work
   * Re-Labeled, Applying preprocessing
 * Create test that checks relatedness against known pedigrees
 
-
-
 ---
 
 ## Colin Shepherd
@@ -102,6 +100,14 @@ List of Complete Bioinformatics work
 ### MSc Supervision - Time Commitment ~6 Days
 * Weekly meeting to assess progress and guide
 * Low Frequency support
+
+### Tenascin C Project - ~0.15 Days
+* Extract Gene expression data in Discovery and Validation data sets
+* Test for DE Between Control and PSS
+  * Repeat for Discovery and Validation
+* Plot Image of TNC expression
+* Rubber Duck
+* Report results
 
 ---
 

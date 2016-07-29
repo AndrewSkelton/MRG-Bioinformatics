@@ -29,12 +29,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Rubber Duck
 * Report results
 
-### Tenascin C Project
-* Extract Gene expression data in Discovery and Validation data sets
-* Test for correlations against phenotype data (waiting for clinical phenotypes of interest)
-* Rubber Duck
-* Report results
-
 ---
 
 ## Stuart Watson
