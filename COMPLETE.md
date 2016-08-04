@@ -41,11 +41,13 @@ List of Complete Bioinformatics work
 * Visualisations
 * Export Results
 * Discuss results and plan follow up work / analyses
+* Pairings
+  * Cant be used as the pairings are across scan batches. 
 
 ---
 
 ## Sophie Hambleton
-### PID Exome Project - Time Commitment ~1.5 Days
+### PID Exome Project - Time Commitment ~2.5 Days
 * Re-label mixed samplesqst
 * Change ReadGroups - Easier to run preprocessing.
 * Implement check for Missing bam files for a given sample map element
@@ -58,6 +60,13 @@ List of Complete Bioinformatics work
   * Informed Jon - Waiting for confirmation to send MT Bams
   * Remapping was interpreted the opposite way around
   * Re-Labeled, Applying preprocessing
+  * Preprocessing All good
+* Preprocessing of August 2016 Batch (9 Samples)
+* Joint Genotyping of All samples
+  * Known Issues:
+    * Gender Mismatch: D180850 (2013December Batch, Logged Gender F, actual M).
+    * Relatedness:
+      * *To Complete After Genotyping*
 * Create test that checks relatedness against known pedigrees
 
 ---
@@ -101,7 +110,7 @@ List of Complete Bioinformatics work
 * Weekly meeting to assess progress and guide
 * Low Frequency support
 
-### Tenascin C Project - ~0.15 Days
+### Tenascin C Project - ~0.25 Days
 * Extract Gene expression data in Discovery and Validation data sets
 * Test for DE Between Control and PSS
   * Repeat for Discovery and Validation
@@ -139,7 +148,7 @@ List of Complete Bioinformatics work
 ---
 
 # Adrian Falconer
-### HT12 Experiment - Time Commitment ~1.25 Days
+### HT12 Experiment - Time Commitment ~1.5 Days
 * Experimental Design Meeting 2pm 25th July 2016
 * Prep Data from IDAT -> S|CPP
 * QC

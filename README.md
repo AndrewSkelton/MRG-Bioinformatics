@@ -5,19 +5,20 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 # Long Term Projects
 ## Faye Cooles - NanoString
-* Evaluate Raw Data Distribution
-* Design model for experimental design - Question 5 still to go
+* Differential Expression
+  * IGS split by RA/Healthy - Check.
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
   * Check NanoStringNorm, and normalise using housekeepers (geometric mean)
   * Limma Voom (Don't pre normalise - Size factors, or TMM at most)
+
 * Volcano Plots
-* Pairings
 * Correlation of Retrotransposon genes against everything else (cor.test)
   * Subset by Cell Type
 * IPA
   * PO
 * Rubber Duck
 * Send results
+* Create MD Document
 
 ---
 
@@ -71,8 +72,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Sophie Hambleton
 ### PID Exome Project
-* Re-run Joint Genotyping - Waiting on preprocessing.
 * Create Test to detect duplicate sample IDs in pedigree file, that have different family IDs
+* Find a solution to multiple patient samples in a single run (DNA / Fibroblasts)
 * Alter Pedigree file for mismatches
 * Rerun full JointGenotyping Run
 
