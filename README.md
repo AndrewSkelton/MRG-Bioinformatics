@@ -7,13 +7,10 @@ Current list of work being carried out in the MRG in Bioinformatics
 ## Faye Cooles - NanoString
 * Differential Expression
   * IGS split by RA/Healthy - Check.
+  * All the combinations.
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
   * Check NanoStringNorm, and normalise using housekeepers (geometric mean)
   * Limma Voom (Don't pre normalise - Size factors, or TMM at most)
-
-* Volcano Plots
-* Correlation of Retrotransposon genes against everything else (cor.test)
-  * Subset by Cell Type
 * IPA
   * PO
 * Rubber Duck

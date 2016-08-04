@@ -42,7 +42,11 @@ List of Complete Bioinformatics work
 * Export Results
 * Discuss results and plan follow up work / analyses
 * Pairings
-  * Cant be used as the pairings are across scan batches. 
+  * Cant be used as the pairings are across scan batches.
+* Correlation of Retrotransposon genes against everything else (cor.test)
+  * Subset by Cell Type
+  * 2 Statistically Significant Results; LTR_5 - MAVS in PDc, and L1-5_UTR - ILF3 in CD4
+* Volcano Plots
 
 ---
 
