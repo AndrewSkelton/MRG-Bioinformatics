@@ -162,3 +162,31 @@ List of Complete Bioinformatics work
   * Compile to PDF
 
 ---
+
+## Desa Lilic
+### CiC Project - Time Commitment ~2 Days
+* Awaiting Data - Expected mid to end of July
+  * Data arrived Afternoon Thurs 4th August
+* Archive Raw Data
+* NextSeq Prep
+  * Concatenate the 4 lanes for each sample.
+  * Data Split onto two flowcells to achieve read numbers
+  * Concatenate 8 fq files per sample
+* QC
+  * Fastqc
+  * MultiQC
+    * Seems like 2 Donors (6 samples), contaminated based on GC distribution
+    * Samples removed (CMCa32/CMCa39) - Anaemic, higher proportion of red blood cells.
+* Quantification
+  * FMSCluster - Kallisto, against GRCh38 Transcriptome (10 cores per job, 100 boot straps per sample)
+* Differential Expression
+  * DESeq2
+    * Model of ~Treatment_Disease * CellType
+      * Contrasts are far too complex to interpret
+      * Model Fit Slow
+      * PCA Shows a possible batch effect explained by Extraction Dataset
+    * Model of ~Treatment_Disease + ExtractDate (longer fit ~40mins), doesn't account for effect
+  * Voom - Much faster
+    * Model of ~Treatment_Disease + ExtractDate (subsetting by PBMCs / Fibroblasts)
+    * PCA looks good with corrected expression set
+    * High differential expression numbers with standard cutoffs (FDR < 0.05 & FC > 1.5), switching to be more stringent

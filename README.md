@@ -90,7 +90,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Desa Lilic
 ### CiC Project
-* Awaiting Data - Expected mid to end of July
+* Create Report (using Voom)
 
 ---
 
