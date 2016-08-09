@@ -34,7 +34,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Faye Cooles
-### NanoString - Time Commitment ~2 Days
+### NanoString - Time Commitment ~2.5 Days
 * Design model for experimental design
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
 * Develop Contrasts
@@ -47,6 +47,11 @@ List of Complete Bioinformatics work
   * Subset by Cell Type
   * 2 Statistically Significant Results; LTR_5 - MAVS in PDc, and L1-5_UTR - ILF3 in CD4
 * Volcano Plots
+* Additional Model fit + Term (IGS High Vs IGS Low)
+  * RA specific (RA High Vs RA Low)
+  * General - RA High Vs (RA Low + HC Low)
+* Version 2 of Report
+* Version 3 of Report
 
 ---
 

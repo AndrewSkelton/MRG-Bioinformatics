@@ -97,7 +97,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Additional Contrasts - noGOF-CMC in IFNa/g and Unstim
 * Perform set union for IFNa and IFNg: (CMCa - CMCu) ∪ (HCa - HCu)
   * Check Direction of FC
-* When Analysing Fibroblast samples, expected low response to IFNg, and increased reposonse to IFNa. 
+* When Analysing Fibroblast samples, expected low response to IFNg, and increased response to IFNa. 
 
 ---
 
