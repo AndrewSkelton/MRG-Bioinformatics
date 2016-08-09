@@ -90,7 +90,14 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Desa Lilic
 ### CiC Project
-* Create Report (using Voom)
+* Send Phenotype File (Output as CSV)
+* Add heatmap into the Volcano Mix - Top 100 DE Genes for all Conditions
+* Volcano Plots - Make X Axis Static (-10:10?)
+* Dot Plot Examples of Top 10 per contrasts
+* Additional Contrasts - noGOF-CMC in IFNa/g and Unstim
+* Perform set union for IFNa and IFNg: (CMCa - CMCu) ∪ (HCa - HCu)
+  * Check Direction of FC
+* When Analysing Fibroblast samples, expected low response to IFNg, and increased reposonse to IFNa. 
 
 ---
 
@@ -99,7 +106,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Genotyping Analysis Results
 
 ### 1000 Families miRNA Seq - Tania/Fraser
-* Get Raw Data
+* Get Raw Data - Awaiting Fastq Files
 * Publication Quality Tables and Figures
 
 ### DNA Sequencing
@@ -119,12 +126,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Adrian Falconer
 ### HT12 Experiment
-* Experimental Design Meeting 2pm 25th July 2016
-  * 4 Factorials (Stimulations), Time points
-  * IPA
-    * PO
-  * Volcano Plots
-  * Take Raw Data / Phenotype data and make archive
-  * Preprocess using LumiDat binary
+* No Current Tasks
 
 ---

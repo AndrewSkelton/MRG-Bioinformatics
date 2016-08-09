@@ -152,7 +152,7 @@ List of Complete Bioinformatics work
 ---
 
 # Adrian Falconer
-### HT12 Experiment - Time Commitment ~1.5 Days
+### HT12 Experiment - Time Commitment ~2 Days
 * Experimental Design Meeting 2pm 25th July 2016
 * Prep Data from IDAT -> S|CPP
 * QC
@@ -164,7 +164,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Desa Lilic
-### CiC Project - Time Commitment ~2 Days
+### CiC Project - Time Commitment ~3 Days
 * Awaiting Data - Expected mid to end of July
   * Data arrived Afternoon Thurs 4th August
 * Archive Raw Data
@@ -178,15 +178,21 @@ List of Complete Bioinformatics work
     * Seems like 2 Donors (6 samples), contaminated based on GC distribution
     * Samples removed (CMCa32/CMCa39) - Anaemic, higher proportion of red blood cells.
 * Quantification
-  * FMSCluster - Kallisto, against GRCh38 Transcriptome (10 cores per job, 100 boot straps per sample)
+  * FMSCluster - Kallisto, against GRCh38 Transcriptome (10 cores per job, 100 bootstraps per sample)
 * Differential Expression
   * DESeq2
     * Model of ~Treatment_Disease * CellType
       * Contrasts are far too complex to interpret
       * Model Fit Slow
-      * PCA Shows a possible batch effect explained by Extraction Dataset
-    * Model of ~Treatment_Disease + ExtractDate (longer fit ~40mins), doesn't account for effect
+      * PCA Shows a possible batch effect explained by Extraction variable
+        * Effect is due to extraction kit (First one was a trial, Date should still encompass that effect)
+    * Model of ~Treatment_Disease + ExtractDate (longer fit ~40mins), doesn't account for batch effect
   * Voom - Much faster
     * Model of ~Treatment_Disease + ExtractDate (subsetting by PBMCs / Fibroblasts)
     * PCA looks good with corrected expression set
     * High differential expression numbers with standard cutoffs (FDR < 0.05 & FC > 1.5), switching to be more stringent
+* Write Markdown Report
+* Send Markdown Report
+* Send PDF Quality Report from GeomeScan
+
+---
