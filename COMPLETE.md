@@ -52,6 +52,8 @@ List of Complete Bioinformatics work
   * General - RA High Vs (RA Low + HC Low)
 * Version 2 of Report
 * Version 3 of Report
+* IPA Prep
+* IPA Run
 
 ---
 
@@ -165,11 +167,13 @@ List of Complete Bioinformatics work
 * DE Results (Padj < 0.05 & LFC > 2)
 * Create Report in Markdown
   * Compile to PDF
+* IPA Prep
+* IPA Run
 
 ---
 
 ## Desa Lilic
-### CiC Project - Time Commitment ~3 Days
+### CiC Project - Time Commitment ~3.5 Days
 * Awaiting Data - Expected mid to end of July
   * Data arrived Afternoon Thurs 4th August
 * Archive Raw Data
@@ -199,5 +203,11 @@ List of Complete Bioinformatics work
 * Write Markdown Report
 * Send Markdown Report
 * Send PDF Quality Report from GeomeScan
+* Send Phenotype File (Output as CSV)
+* Add heatmap into the Volcano Mix - Top 100 DE Genes for all Conditions
+* Dot Plot Examples of Top 10 per contrasts
+* Additional Contrasts - noGOF-CMC in IFNa/g and Unstim
+* IPA Prep
+* IPA Run
 
 ---

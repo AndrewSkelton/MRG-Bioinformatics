@@ -13,7 +13,6 @@ Current list of work being carried out in the MRG in Bioinformatics
   * Limma Voom (Don't pre normalise - Size factors, or TMM at most)
 * IPA
   * PO
-* Rubber Duck
 * Send results
 * Create MD Document
 
@@ -90,14 +89,11 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Desa Lilic
 ### CiC Project
-* Send Phenotype File (Output as CSV)
-* Add heatmap into the Volcano Mix - Top 100 DE Genes for all Conditions
 * Volcano Plots - Make X Axis Static (-10:10?)
-* Dot Plot Examples of Top 10 per contrasts
-* Additional Contrasts - noGOF-CMC in IFNa/g and Unstim
 * Perform set union for IFNa and IFNg: (CMCa - CMCu) ∪ (HCa - HCu)
   * Check Direction of FC
-* When Analysing Fibroblast samples, expected low response to IFNg, and increased response to IFNa. 
+* Heatmap - Something that embodies the whole experiment
+* Repeat analysis for Fibroblasts
 
 ---
 
