@@ -11,10 +11,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
   * Check NanoStringNorm, and normalise using housekeepers (geometric mean)
   * Limma Voom (Don't pre normalise - Size factors, or TMM at most)
-* IPA
-  * PO
-* Send results
-* Create MD Document
+* IPA Training / Teaching
+
 
 ---
 
@@ -46,8 +44,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Louise Reynard
 ### Methylation Collaboration Project
-* Scripps Data
-  * Age Regression
 * Compile Code for Project
 * Migrate to long term github Project
 * Document
@@ -78,11 +74,24 @@ Current list of work being carried out in the MRG in Bioinformatics
 ## Arthur Pratt
 ### T-Cell Dataset
 * Query - See email, differential expression test between groupings
-* Meeting Friday 2pm
+* Phil - Methotrexate Queries
+  * Add to phenotype data
+* Add extraction Dates to data
+  * Some kind of effect, but not as well encapsulated as current factors
+* Paper Amendments
+  * HLA-DRB6
+    * Get Probe Quality information
+    * 2 Probes available in annotation
+    * Lots of SNPs
+      * ILMN_2066060 - 11 Overlapping SNPs in 50bp capture seq
+      * ILMN_2066066 - 6 Overlapping SNPs in 50bp capture seq
+  * B-Cell Expression set
+    * Run through Pipeline
+    * Find a way to deal with RPS26 Chromosome patch
+  * Incorporate MAF in somehow.
 
 
 ### B-Cell Dataset
-* No current Tasks
 * Support / teaching of Nish's PhD
 
 ---
@@ -92,8 +101,9 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Volcano Plots - Make X Axis Static (-10:10?)
 * Perform set union for IFNa and IFNg: (CMCa - CMCu) ∪ (HCa - HCu)
   * Check Direction of FC
-* Heatmap - Something that embodies the whole experiment
 * Repeat analysis for Fibroblasts
+* IFNa Inducible genes from papers sent by Desa
+  * Plot - Display between conditions.
 
 ---
 
@@ -123,5 +133,16 @@ Current list of work being carried out in the MRG in Bioinformatics
 ## Adrian Falconer
 ### HT12 Experiment
 * No Current Tasks
+
+---
+
+## Drew Rowan
+### GEO Upload - Roughly ~0.5 Days
+* Waiting on Details from Matt.
+* Build GEO Archive
+* Send to Curators
+* Get GEO Accession
+  * Forward to Drew
+* Hold accession until specified
 
 ---

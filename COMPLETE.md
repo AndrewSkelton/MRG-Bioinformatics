@@ -4,14 +4,18 @@ List of Complete Bioinformatics work
 ---
 
 ## Louise Reynard
-### Methylation Collaboration Project - Time Commitment ~1.5 Days
-* Scripps Transcription Factor Enrichment Analysis
+### Methylation Collaboration Project - Time Commitment ~2 Days
+* Scripps Data
+  * Transcription Factor Enrichment Analysis
+  * Age Regression
+    * Beta Query
 * Mandy Transcription Factor Enrichment Analysis
   * MSC - chondrocyte
   * MSC - OB
   * MSC - Tenocyte
   * Subset for Final CpG list for original collaboration
 * Followup Enrichment analysis (TXF/ ENCODE Chromatin) for DM lists
+
 
 ### GEO Data request - Time Commitment ~0.15 Days
 * Query and Get IDAT files for GSE80071
@@ -34,7 +38,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Faye Cooles
-### NanoString - Time Commitment ~2.5 Days
+### NanoString - Time Commitment ~3.5 Days
 * Design model for experimental design
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
 * Develop Contrasts
@@ -79,6 +83,8 @@ List of Complete Bioinformatics work
     * Relatedness:
       * *To Complete After Genotyping*
 * Create test that checks relatedness against known pedigrees
+* Contact Arron Scott to address copying issue to migrated share
+  * Sent through commands used - Waiting on checks.
 
 ---
 
@@ -169,6 +175,7 @@ List of Complete Bioinformatics work
   * Compile to PDF
 * IPA Prep
 * IPA Run
+* IPA Training
 
 ---
 
@@ -209,5 +216,7 @@ List of Complete Bioinformatics work
 * Additional Contrasts - noGOF-CMC in IFNa/g and Unstim
 * IPA Prep
 * IPA Run
+* Heatmap - Something that embodies the whole experiment
+  * Adjustments and Customisation.
 
 ---
