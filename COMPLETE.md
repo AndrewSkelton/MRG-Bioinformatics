@@ -147,7 +147,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Arthur Pratt
-### T-Cell Dataset - Time Commitment ~1.75 Days
+### T-Cell Dataset - Time Commitment ~2.5 Days
 * eQTL of ~1000 Genes (ranked by variability)
 * Interaction effect research
   * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
@@ -161,6 +161,13 @@ List of Complete Bioinformatics work
     * 67 (-4) P < 0.0001
     * Limited on Power due to Genotype, Disease Split
   * Meeting Friday 2pm
+* Paper Amendments
+  * HLA-DRB6
+    * Get Probe Quality information
+    * 2 Probes available in annotation
+    * Lots of SNPs
+      * ILMN_2066060 - 11 Overlapping SNPs in 50bp capture seq
+      * ILMN_2066066 - 6 Overlapping SNPs in 50bp capture seq
 
 ---
 
@@ -180,7 +187,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Desa Lilic
-### CiC Project - Time Commitment ~3.5 Days
+### CiC Project - Time Commitment ~4.5 Days
 * Awaiting Data - Expected mid to end of July
   * Data arrived Afternoon Thurs 4th August
 * Archive Raw Data
@@ -218,5 +225,16 @@ List of Complete Bioinformatics work
 * IPA Run
 * Heatmap - Something that embodies the whole experiment
   * Adjustments and Customisation.
+
+---
+
+## Laura Ridgley
+### HT12 Experiment - Time Commitment ~0.75 Days
+* Get IDAT files from Array provider
+* Create Phenotype table
+* LumiDat - IDAT -> SPP/CPP
+  * 30 Probes excluded due to low bead numbers
+* Generate Script
+* Set up Pandoc Notes
 
 ---

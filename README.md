@@ -79,16 +79,12 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Add extraction Dates to data
   * Some kind of effect, but not as well encapsulated as current factors
 * Paper Amendments
-  * HLA-DRB6
-    * Get Probe Quality information
-    * 2 Probes available in annotation
-    * Lots of SNPs
-      * ILMN_2066060 - 11 Overlapping SNPs in 50bp capture seq
-      * ILMN_2066066 - 6 Overlapping SNPs in 50bp capture seq
   * B-Cell Expression set
     * Run through Pipeline
     * Find a way to deal with RPS26 Chromosome patch
-  * Incorporate MAF in somehow.
+  * Incorporate MAF in somehow
+    * Dataset MAF
+    * 1000G PIII MAF (biomaRt?)
 
 
 ### B-Cell Dataset
@@ -144,5 +140,16 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Get GEO Accession
   * Forward to Drew
 * Hold accession until specified
+
+---
+
+## Laura Ridgley
+### HT12 Experiment
+* Get IDAT files from Array provider
+* Create Phenotype table
+* LumiDat - IDAT -> SPP/CPP
+  * 30 Probes excluded due to low bead numbers
+* Generate Script
+* Set up Pandoc Notes
 
 ---
