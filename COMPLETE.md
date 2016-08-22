@@ -81,10 +81,14 @@ List of Complete Bioinformatics work
   * Known Issues:
     * Gender Mismatch: D180850 (2013December Batch, Logged Gender F, actual M).
     * Relatedness:
-      * *To Complete After Genotyping*
+      * Issues from AROS batches, but nothing critical that can be altered now.
 * Create test that checks relatedness against known pedigrees
 * Contact Arron Scott to address copying issue to migrated share
   * Sent through commands used - Waiting on checks.
+  * Something still not right - most files copy fine (overnight), however some fail on IO error
+    * Isolated to migration, nothing on cluster end to blame
+
+
 
 ---
 
@@ -147,7 +151,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Arthur Pratt
-### T-Cell Dataset - Time Commitment ~2.5 Days
+### T-Cell Dataset - Time Commitment ~3 Days
 * eQTL of ~1000 Genes (ranked by variability)
 * Interaction effect research
   * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
@@ -157,7 +161,7 @@ List of Complete Bioinformatics work
   * Parallelise (40 Threads on Sulaco overnight - ~8Hrs)
   * Plot top results
     * 15,760,003 Tests - Could be limited using LD and MAF
-    * 4 Pass FDR (Not convincing)
+    * 4 Pass FDR (Not convincing) - Appears to be systematic (batch corrections? Dataset combination?)
     * 67 (-4) P < 0.0001
     * Limited on Power due to Genotype, Disease Split
   * Meeting Friday 2pm
@@ -235,6 +239,22 @@ List of Complete Bioinformatics work
 * LumiDat - IDAT -> SPP/CPP
   * 30 Probes excluded due to low bead numbers
 * Generate Script
+* Set up basics of the experiment (based on phenotype table)
+  * Need to check my assumptions
+    * 6 uneven time points
+    * 2 Cell types Naive and Memory (B Cells?)
+    * Treatment of IL-6 (Paired, w + w/o Stim)
+    * Looking for differences in stimulation over time
+    * between cell types for now
+  * Raw data assessment
+  * Normalisation
+    * Everything seems normal, PCA needs a lot of factors to make sense
+    * Boxplots look a bit variable, likely due to pairs or high background
+  * HotellingT2 test
+    * Filter? P-Value? - Using HT2 > 500 for now.
+  * Linear model
+    * Set up as grouped analysis
+    * Paired analysis (blocking), will take more work to design contrasts between pairs. edgeR manual has clues.
 * Set up Pandoc Notes
 
 ---

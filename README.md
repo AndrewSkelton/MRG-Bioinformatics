@@ -47,6 +47,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Compile Code for Project
 * Migrate to long term github Project
 * Document
+* RA Hip RA Knee - Methylation dataset ? - Check which.
 
 ### mQTL Analysis
 * mQTL Pipeline Design (use parts from Arthur's project)
@@ -66,25 +67,48 @@ Current list of work being carried out in the MRG in Bioinformatics
 ### PID Exome Project
 * Create Test to detect duplicate sample IDs in pedigree file, that have different family IDs
 * Find a solution to multiple patient samples in a single run (DNA / Fibroblasts)
-* Alter Pedigree file for mismatches
-* Rerun full JointGenotyping Run
+* ExomeDepth Strikes back! - Test code and re-implement.
+* New RDW file migration causes issues in mass network transfer, waiting on possible solution from NUIT/Arron.
 
 ---
 
 ## Arthur Pratt
 ### T-Cell Dataset
-* Query - See email, differential expression test between groupings
+* Paper Amendments
+  * HLA-DRB6
+    * Probe Sequence SNPs MAFs
+    * Email Arthur with SNP IDs
+    * Check for patients with two copies.
+    * Exclude HLA regions 
+  * T-Cell Expression Dataset
+    * Parallel eQTL using logistic Regression
+    * Parallel eQTL using linear regression
+    * Formally produce results table
+    * Send through to Arthur
+  * B-Cell Expression set
+    * Parallel eQTL using logistic Regression
+    * Parallel eQTL using linear regression
+    * Formally produce results table
+    * Send through to Arthur
+    * Check RPS26
+  * B/T Cell Results
+    * Basic Sets comparisons (Union, SetDiff)
+    * Check HLA-DRB6 (which )
+  * Copy Number Variation using Plink
+
+* Incorporate MAF in somehow
+  * Dataset MAF (Use Plink to filter)
+  * 1000G PIII MAF (biomaRt?)
+
 * Phil - Methotrexate Queries
   * Add to phenotype data
-* Add extraction Dates to data
-  * Some kind of effect, but not as well encapsulated as current factors
-* Paper Amendments
-  * B-Cell Expression set
-    * Run through Pipeline
-    * Find a way to deal with RPS26 Chromosome patch
-  * Incorporate MAF in somehow
-    * Dataset MAF
-    * 1000G PIII MAF (biomaRt?)
+  * Design LM
+  * Test for survival differences
+  * Send results through
+
+* Birmingham
+  * See email (Jane Falconer)
+  * Spreadsheet - Two sheets for contrasts from melded T-Cell dataset
 
 
 ### B-Cell Dataset
@@ -145,11 +169,6 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Laura Ridgley
 ### HT12 Experiment
-* Get IDAT files from Array provider
-* Create Phenotype table
-* LumiDat - IDAT -> SPP/CPP
-  * 30 Probes excluded due to low bead numbers
-* Generate Script
 * Set up Pandoc Notes
 
 ---
