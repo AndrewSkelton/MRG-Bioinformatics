@@ -15,7 +15,15 @@ List of Complete Bioinformatics work
   * MSC - Tenocyte
   * Subset for Final CpG list for original collaboration
 * Followup Enrichment analysis (TXF/ ENCODE Chromatin) for DM lists
-
+* San Diego Data
+  * Create Pheno table
+  * Read in Raw Data, normalise, filter (Sex Chr, MAF, DPVal)
+  * PCA
+    * Outlier samples (2, NA RA sample, RA Hip Sample)
+    * Remove NA samples and RA Hip samples
+  * Fit linear Model
+    * Differential Methylation of RAHip-RAKnee (and with OA)
+    * Significant Probes (3,291, and 212 respectively)
 
 ### GEO Data request - Time Commitment ~0.15 Days
 * Query and Get IDAT files for GSE80071
