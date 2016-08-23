@@ -79,7 +79,7 @@ Current list of work being carried out in the MRG in Bioinformatics
     * Probe Sequence SNPs MAFs
     * Email Arthur with SNP IDs
     * Check for patients with two copies.
-    * Exclude HLA regions 
+    * Exclude HLA regions
   * T-Cell Expression Dataset
     * Parallel eQTL using logistic Regression
     * Parallel eQTL using linear regression
@@ -105,10 +105,6 @@ Current list of work being carried out in the MRG in Bioinformatics
   * Design LM
   * Test for survival differences
   * Send results through
-
-* Birmingham
-  * See email (Jane Falconer)
-  * Spreadsheet - Two sheets for contrasts from melded T-Cell dataset
 
 
 ### B-Cell Dataset

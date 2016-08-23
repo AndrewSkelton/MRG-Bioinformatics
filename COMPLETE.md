@@ -159,7 +159,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Arthur Pratt
-### T-Cell Dataset - Time Commitment ~3 Days
+### T-Cell Dataset - Time Commitment ~3.5 Days
 * eQTL of ~1000 Genes (ranked by variability)
 * Interaction effect research
   * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
@@ -180,6 +180,9 @@ List of Complete Bioinformatics work
     * Lots of SNPs
       * ILMN_2066060 - 11 Overlapping SNPs in 50bp capture seq
       * ILMN_2066066 - 6 Overlapping SNPs in 50bp capture seq
+* Birmingham
+  * See email (Jane Falconer)
+  * Spreadsheet - Two sheets for contrasts from melded T-Cell dataset
 
 ---
 
@@ -199,7 +202,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Desa Lilic
-### CiC Project - Time Commitment ~4.5 Days
+### CiC Project - Time Commitment ~4.6 Days
 * Awaiting Data - Expected mid to end of July
   * Data arrived Afternoon Thurs 4th August
 * Archive Raw Data
@@ -237,6 +240,11 @@ List of Complete Bioinformatics work
 * IPA Run
 * Heatmap - Something that embodies the whole experiment
   * Adjustments and Customisation.
+* Fibroblast Data
+  * Extract normalised expression set for Chun
+  * Adjust for date effect (could be kit)
+  * Appears to be a donor effect between CMC patients, unable to correct
+  * May require a paired model :( - Will need to work on designing contrasts between pairs.
 
 ---
 
