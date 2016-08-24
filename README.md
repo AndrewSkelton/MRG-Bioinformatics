@@ -70,13 +70,19 @@ Current list of work being carried out in the MRG in Bioinformatics
 * ExomeDepth Strikes back! - Test code and re-implement.
 * New RDW file migration causes issues in mass network transfer, waiting on possible solution from NUIT/Arron.
 * Mass TAR backup to MRG NAS - Due to complications with RDW, better safe than sorry
+  * Tar compression running - Will take up to a week.
+  * Copy over to MRG NAS once Complete
+* Create MRG NAS Share for PID Project
+  * Host Alignments
+    * Copying 2016 Alignments now
+  * Create accounts if needed for share
 * Create overview document of Pipeline
   * Photoshop A2
 * Non-Coding variant prediction research
 * Full implementation of MultiQC
 * Gemini testing
   * Comp-Het
-* MT variant calling? 
+* MT variant calling?
 
 ---
 
