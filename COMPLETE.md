@@ -70,8 +70,8 @@ List of Complete Bioinformatics work
 ---
 
 ## Sophie Hambleton
-### PID Exome Project - Time Commitment ~2.5 Days
-* Re-label mixed samplesqst
+### PID Exome Project - Time Commitment ~5 Days
+* Re-label mixed samples
 * Change ReadGroups - Easier to run preprocessing.
 * Implement check for Missing bam files for a given sample map element
 * Fix bug in pedigree reporting
@@ -95,7 +95,6 @@ List of Complete Bioinformatics work
   * Sent through commands used - Waiting on checks.
   * Something still not right - most files copy fine (overnight), however some fail on IO error
     * Isolated to migration, nothing on cluster end to blame
-
 
 
 ---
