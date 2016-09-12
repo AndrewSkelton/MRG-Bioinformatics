@@ -4,7 +4,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Louise Reynard
-### Methylation Collaboration Project - Time Commitment ~2 Days
+### Methylation Collaboration Project - Time Commitment ~2.75 Days
 * Scripps Data
   * Transcription Factor Enrichment Analysis
   * Age Regression
@@ -24,6 +24,7 @@ List of Complete Bioinformatics work
   * Fit linear Model
     * Differential Methylation of RAHip-RAKnee (and with OA)
     * Significant Probes (3,291, and 212 respectively)
+  * mAge/cAge Ratio Regression
 
 ### GEO Data request - Time Commitment ~0.15 Days
 * Query and Get IDAT files for GSE80071
@@ -95,12 +96,21 @@ List of Complete Bioinformatics work
   * Sent through commands used - Waiting on checks.
   * Something still not right - most files copy fine (overnight), however some fail on IO error
     * Isolated to migration, nothing on cluster end to blame
+* Mass TAR backup to MRG NAS - Due to complications with RDW, better safe than sorry
+  * Tar compression + gz
+  * Copy over to MRG NAS once Complete
+* Create MRG NAS Share for PID Project
+  * Host Alignments
+    * Copying 2016 Alignments now
+  * Create accounts if needed for share
+* Create overview document of Pipeline
+  * Photoshop A2
 
 
 ---
 
 ## Colin Shepherd
-### Data request - Time Commitment ~0.60 Days
+### Data request - Time Commitment ~0.70 Days
 * NOF OA RNA Seq data for genes of interest
   * Find transcript ID to gene ID mappings
   * Get TPMs
@@ -109,6 +119,7 @@ List of Complete Bioinformatics work
   * Send results
   * Additional Gene for Extraction (ALDH1A2)
   * Plotting advice and quick coding
+  * Methods section + References
 
 ---
 
@@ -182,11 +193,12 @@ List of Complete Bioinformatics work
 * Birmingham
   * See email (Jane Falconer)
   * Spreadsheet - Two sheets for contrasts from melded T-Cell dataset
+* Email Follow Helen
 
 ---
 
 # Adrian Falconer
-### HT12 Experiment - Time Commitment ~2 Days
+### HT12 Experiment - Time Commitment ~2.5 Days
 * Experimental Design Meeting 2pm 25th July 2016
 * Prep Data from IDAT -> S|CPP
 * QC
@@ -197,11 +209,12 @@ List of Complete Bioinformatics work
 * IPA Prep
 * IPA Run
 * IPA Training
+* Custom Plots
 
 ---
 
 ## Desa Lilic
-### CiC Project - Time Commitment ~4.6 Days
+### CiC Project - Time Commitment ~6.2 Days
 * Awaiting Data - Expected mid to end of July
   * Data arrived Afternoon Thurs 4th August
 * Archive Raw Data
@@ -271,5 +284,23 @@ List of Complete Bioinformatics work
     * Set up as grouped analysis
     * Paired analysis (blocking), will take more work to design contrasts between pairs. edgeR manual has clues.
 * Set up Pandoc Notes
+
+---
+
+## David Young
+### Exome Sequencing - Time Commitment ~0.05 Days
+* Emailed Peter Bell (IGM) - Waiting on dropoff of exome Samples
+
+---
+
+## Drew Rowan
+### GEO Upload - ~0.5 Days
+* Build GEO Archive
+  * Normalised / Raw expression data
+  * Phenotype data
+* Send to Curators
+* Get GEO Accession
+  * Forward to Drew
+* Hold accession until specified
 
 ---

@@ -69,20 +69,11 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Find a solution to multiple patient samples in a single run (DNA / Fibroblasts)
 * ExomeDepth Strikes back! - Test code and re-implement.
 * New RDW file migration causes issues in mass network transfer, waiting on possible solution from NUIT/Arron.
-* Mass TAR backup to MRG NAS - Due to complications with RDW, better safe than sorry
-  * Tar compression running - Will take up to a week.
-  * Copy over to MRG NAS once Complete
-* Create MRG NAS Share for PID Project
-  * Host Alignments
-    * Copying 2016 Alignments now
-  * Create accounts if needed for share
-* Create overview document of Pipeline
-  * Photoshop A2
 * Non-Coding variant prediction research
 * Full implementation of MultiQC
 * Gemini testing
   * Comp-Het
-* MT variant calling?
+
 
 ---
 
@@ -123,6 +114,7 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ### B-Cell Dataset
 * Support / teaching of Nish's PhD
+* Followup Email Helen for B-Cell Data
 
 ---
 
@@ -145,9 +137,8 @@ Current list of work being carried out in the MRG in Bioinformatics
 * Get Raw Data - Awaiting Fastq Files
 * Publication Quality Tables and Figures
 
-### DNA Sequencing
-* No current Tasks
-* Expecting email about meeting
+### Exome Sequencing
+* Requested Fastq Files
 
 ### Cardiff collaboration
 * Low frequency support requests
@@ -162,23 +153,21 @@ Current list of work being carried out in the MRG in Bioinformatics
 
 ## Adrian Falconer
 ### HT12 Experiment
-* No Current Tasks
-
----
-
-## Drew Rowan
-### GEO Upload - Roughly ~0.5 Days
-* Waiting on Details from Matt.
-* Build GEO Archive
-* Send to Curators
-* Get GEO Accession
-  * Forward to Drew
-* Hold accession until specified
+* Venn Diagrams
 
 ---
 
 ## Laura Ridgley
 ### HT12 Experiment
 * Set up Pandoc Notes
+
+---
+
+## Colin Shepherd
+### NOF OA Dataset Queries
+* Methods for quantification
+  * Kallisto
+  * TPMs
+  * DESeq2 trnacript aggregation?
 
 ---
