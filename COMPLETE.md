@@ -4,7 +4,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Louise Reynard
-### Methylation Collaboration Project - Time Commitment ~2.75 Days
+### Methylation Collaboration Project - Time Commitment ~4.05 Days
 * Scripps Data
   * Transcription Factor Enrichment Analysis
   * Age Regression
@@ -40,14 +40,16 @@ List of Complete Bioinformatics work
 ---
 
 ## Stuart Watson
-### Methylation Arrays - Time Commitment ~1.25 Day
+### Methylation Arrays - Time Commitment ~2.25 Day
 * Report results of non-linear effects
 * Methods Section writing - Kelly
+* Kelly - Data Queries
+* Kelly - Cutom Plots
 
 ---
 
 ## Faye Cooles
-### NanoString - Time Commitment ~3.5 Days
+### NanoString - Time Commitment ~3.75 Days
 * Design model for experimental design
 * Assess suitability of DESeq2 as analysis framework for NanoString Data
 * Develop Contrasts
@@ -110,7 +112,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Colin Shepherd
-### Data request - Time Commitment ~0.70 Days
+### Data request - Time Commitment ~1.2 Days
 * NOF OA RNA Seq data for genes of interest
   * Find transcript ID to gene ID mappings
   * Get TPMs
@@ -120,6 +122,7 @@ List of Complete Bioinformatics work
   * Additional Gene for Extraction (ALDH1A2)
   * Plotting advice and quick coding
   * Methods section + References
+  * Methods section2 + References
 
 ---
 
@@ -169,7 +172,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Arthur Pratt
-### T-Cell Dataset - Time Commitment ~3.5 Days
+### T-Cell Dataset - Time Commitment ~4.5 Days
 * eQTL of ~1000 Genes (ranked by variability)
 * Interaction effect research
   * Try Multinomial Log-linear Model for i ~ x * y (i = Disease, x = GE, y = Geno)
@@ -194,11 +197,15 @@ List of Complete Bioinformatics work
   * See email (Jane Falconer)
   * Spreadsheet - Two sheets for contrasts from melded T-Cell dataset
 * Email Follow Helen
+* Copy Number Variation using Plink
+  * Can't be done without BirdSuite to call the Copy numbers
+  * Birdsuite restricted to Affy and Illumin 660 Quads
+  * Emailed Arthur with details
 
 ---
 
 # Adrian Falconer
-### HT12 Experiment - Time Commitment ~2.5 Days
+### HT12 Experiment - Time Commitment ~3 Days
 * Experimental Design Meeting 2pm 25th July 2016
 * Prep Data from IDAT -> S|CPP
 * QC
@@ -210,11 +217,12 @@ List of Complete Bioinformatics work
 * IPA Run
 * IPA Training
 * Custom Plots
+  * XY Scatters (LogFC vs LogFC) * 4
 
 ---
 
 ## Desa Lilic
-### CiC Project - Time Commitment ~6.2 Days
+### CiC Project - Time Commitment ~7.2 Days
 * Awaiting Data - Expected mid to end of July
   * Data arrived Afternoon Thurs 4th August
 * Archive Raw Data
@@ -257,11 +265,15 @@ List of Complete Bioinformatics work
   * Adjust for date effect (could be kit)
   * Appears to be a donor effect between CMC patients, unable to correct
   * May require a paired model :( - Will need to work on designing contrasts between pairs.
+* Stimulation Index (SI)
+  * Relative logFC for alpha stimuli
+* Custom Plots
+* Custom Heatmaps
 
 ---
 
 ## Laura Ridgley
-### HT12 Experiment - Time Commitment ~0.75 Days
+### HT12 Experiment - Time Commitment ~1.5 Days
 * Get IDAT files from Array provider
 * Create Phenotype table
 * LumiDat - IDAT -> SPP/CPP
@@ -294,7 +306,7 @@ List of Complete Bioinformatics work
 ---
 
 ## Drew Rowan
-### GEO Upload - ~0.5 Days
+### GEO Upload - ~0.75 Days
 * Build GEO Archive
   * Normalised / Raw expression data
   * Phenotype data
@@ -302,5 +314,29 @@ List of Complete Bioinformatics work
 * Get GEO Accession
   * Forward to Drew
 * Hold accession until specified
+
+---
+
+## Dennis Lendrem
+### Paper - Time Commitment ~0.25 Days
+* Read + Comment Paper
+* Added comment about bootstrapping train/ test sets
+
+---
+
+## Administration
+### NAS Storage - Time Commitment ~2.25 Days
+* Share Creation - PID Project
+* Migration - PID Backup and Alignment
+  * Transfer took ~ 1 Week
+* Monthly Drive Scrubbing
+* User Creation - Laura
+* Folder in AP_Archive created + populated for Laura's project
+
+### Emails - Time Commitment ~3% per day
+
+
+### Interviews - Time Commitment 0.75 Days
+## Daniel Rico
 
 ---

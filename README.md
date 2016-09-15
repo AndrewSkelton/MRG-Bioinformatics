@@ -99,7 +99,7 @@ Current list of work being carried out in the MRG in Bioinformatics
   * B/T Cell Results
     * Basic Sets comparisons (Union, SetDiff)
     * Check HLA-DRB6 (which )
-  * Copy Number Variation using Plink
+
 
 * Incorporate MAF in somehow
   * Dataset MAF (Use Plink to filter)
